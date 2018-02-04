@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8E29D">
+
+    <ImageView
+        android:id="@+id/handsh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="160dp"
+        android:src="@drawable/ccu_text" />
+
+    <TextView
+        android:id="@+id/union"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The labor union YOU were searching for!"
+        android:textSize="28sp"
+        android:textColor="#303C18"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:lines="2"
+        android:text="Tired of lawlessness?\nWant to protect your rights?"
+        android:textColor="#303C18"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOIN US NOW!"
+        android:textColor="#303C18"
+        android:drawable="@drawable/button_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="12dp"
+        android:padding="15dp"
+        android:textSize="30dp"
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
